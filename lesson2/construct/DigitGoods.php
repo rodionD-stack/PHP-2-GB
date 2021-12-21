@@ -24,6 +24,6 @@ class DigitGoods extends Good
 
     function info()
     {
-        echo parent::info() . "<br>count: {$this->count}<br> Final sum: " . self::finalSum() . "<hr>";
+        echo parent::info() . "<br>Количество: {$this->count}<br> Итоговый доход: " . self::finalSum() . "$" . "<hr>";
     }
 }

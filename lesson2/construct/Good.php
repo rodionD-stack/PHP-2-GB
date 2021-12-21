@@ -20,6 +20,6 @@ abstract class Good
 
     function info()
     {
-        echo "title: {$this->title} <br> description: {$this->description}";
+        echo "Название товара: {$this->title} <br> Описание: {$this->description}";
     }
 }

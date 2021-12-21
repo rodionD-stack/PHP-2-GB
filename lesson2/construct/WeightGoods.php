@@ -25,6 +25,6 @@ class WeightGoods extends Good
 
     function info()
     {
-        echo parent::info() . "<br>weight: {$this->weight} кг <br> Final sum: " . self::finalSum() . "<hr>";
+        echo parent::info() . "<br>Вес: {$this->weight} кг <br> Итговый доход: " . self::finalSum() . "$" . "<hr>";
     }
 }

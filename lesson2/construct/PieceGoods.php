@@ -15,6 +15,6 @@ class PieceGoods extends Good
     }
     function info()
     {
-        echo parent::info() . "<br>count: {$this->count}<br> Final sum: " . self::finalSum();
+        echo parent::info() . "<br>Количество: {$this->count}<br> Итоговый доход: " . self::finalSum() . "$";
     }
 }
