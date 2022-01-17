@@ -3,4 +3,4 @@
 	define('SERVER', 'localhost');
 	define('USERNAME', 'root');
 	define('PASSWORD', '');
-	define('DB', 'user_less5');
+	define('DB', 'gb_php');
